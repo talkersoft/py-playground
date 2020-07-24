@@ -9,8 +9,6 @@ def getfibonacci(i):
             num.append(0)
         elif i == 1 or i == 2:
             num.append(1)
-        elif i == 3:
-            num.append(2)
         else:
             num.append(getfibonacci(i-1) + getfibonacci(i-2))
     
